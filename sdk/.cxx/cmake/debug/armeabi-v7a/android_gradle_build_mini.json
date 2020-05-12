@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "F:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\CMakeLists.txt",
+    "F:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\CMakeLists.txt",
+    "F:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\.cxx\\cmake\\debug\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "alsacae-Debug-armeabi-v7a": {
+      "artifactName": "alsacae",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\.cxx\\cmake\\debug\\armeabi-v7a --target alsacae",
+      "abi": "armeabi-v7a",
+      "output": "F:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\output\\armeabi-v7a\\libalsacae.so"
+    }
+  }
+}

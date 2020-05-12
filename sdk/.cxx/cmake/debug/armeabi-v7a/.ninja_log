@@ -1,0 +1,9 @@
+# ninja log v5
+81	1012	0	cpp/src/cae/CMakeFiles/alsacae.dir/__/util/log/JniLog.cpp.o	bd5f5b99b4fb148c
+95	1794	0	cpp/src/cae/CMakeFiles/alsacae.dir/__/util/android/android_help.cpp.o	9db9723d392325e1
+69	1796	0	cpp/src/cae/CMakeFiles/alsacae.dir/__/util/jvm/jvm.cpp.o	3810c8f3748f5a85
+49	1807	0	cpp/src/cae/CMakeFiles/alsacae.dir/__/recorder/alsa/alsa_recorder.cpp.o	20235fcce8d3e8e5
+30	1834	0	cpp/src/cae/CMakeFiles/alsacae.dir/com_iflytek_iflyos_AlsaCAE.cpp.o	e652a62a0bc5169f
+169	2120	0	cpp/src/cae/CMakeFiles/alsacae.dir/__/util/queue/AudioQueue.c.o	c7aed0bf80eb95eb
+1	2152	0	cpp/src/cae/CMakeFiles/alsacae.dir/__/Recorder.cpp.o	76bd38747df5b84d
+2152	2775	0	F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/output/armeabi-v7a/libalsacae.so	4113e52c80eaa3bb

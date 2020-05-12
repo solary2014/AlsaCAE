@@ -1,0 +1,8 @@
+Executable : C:\Users\Administrator\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+--build
+F:\workspace\alsacae_notwakeup_base\alsacae_notwakeup\sdk\.cxx\cmake\debug\armeabi-v7a
+--target
+alsacae
+jvmArgs : 
+

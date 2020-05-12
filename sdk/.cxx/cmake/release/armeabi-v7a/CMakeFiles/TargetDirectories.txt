@@ -1,0 +1,7 @@
+F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/.cxx/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/.cxx/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/.cxx/cmake/release/armeabi-v7a/cpp/CMakeFiles/edit_cache.dir
+F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/.cxx/cmake/release/armeabi-v7a/cpp/CMakeFiles/rebuild_cache.dir
+F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/.cxx/cmake/release/armeabi-v7a/cpp/src/cae/CMakeFiles/alsacae.dir
+F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/.cxx/cmake/release/armeabi-v7a/cpp/src/cae/CMakeFiles/edit_cache.dir
+F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/.cxx/cmake/release/armeabi-v7a/cpp/src/cae/CMakeFiles/rebuild_cache.dir

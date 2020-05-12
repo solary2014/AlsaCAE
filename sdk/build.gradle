@@ -1,0 +1,68 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 26
+
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+//                cppFlags "-Wall -O2 -ffunction-sections -fdata-sections"
+                abiFilters "armeabi-v7a"
+//                arguments "-DANDROID_STL=c++_shared"
+//                abiFilters "arm64-v8a"
+            }
+        }
+    }
+
+    buildTypes {
+//        release {
+//            minifyEnabled true
+//            zipAlignEnabled true
+//            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+//        }
+//
+//        debug {
+//            minifyEnabled true
+//            zipAlignEnabled true
+//            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+//        }
+    }
+    externalNativeBuild {
+        cmake {
+            path file('src/main/CMakeLists.txt')
+        }
+    }
+
+    sourceSets {
+        main {
+            jni.srcDirs = ['src/main/cpp']
+//            jniLibs.srcDirs = ['src/main/cpp/lib']
+        }
+    }
+
+}
+
+//task makeJar(type: Copy) {
+//    delete 'build/TestJar_V1.0.jar' //删除之前的旧jar包
+//    from('build/intermediates/bundles/default/') //从这个目录下取出默认jar包
+//    into('build/') //将jar包输出到指定目录下
+//    include('classes.jar')
+//    rename('classes.jar', 'TestJar_V1.0.jar') //自定义jar包的名字
+//}
+//makeJar.dependsOn(build)
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+//    implementation 'com.android.support:appcompat-v7:26.0.0'
+//    testImplementation 'junit:junit:4.12'
+//    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+//    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}

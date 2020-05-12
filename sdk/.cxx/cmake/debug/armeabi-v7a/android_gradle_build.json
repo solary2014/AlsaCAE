@@ -1,0 +1,80 @@
+
+{
+	"buildFiles" : 
+	[
+		"F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/src/main/CMakeLists.txt",
+		"F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/src/main/cpp/CMakeLists.txt",
+		"F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/src/main/cpp/src/cae/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\.cxx\\cmake\\debug\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"alsacae-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "alsacae",
+			"buildCommand" : "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\.cxx\\cmake\\debug\\armeabi-v7a --target alsacae",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dalsacae_EXPORTS -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\. -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\.. -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder\\alsa -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder\\include -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\cae -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\cae\\include -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\android -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\log -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\queue  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/src/main/cpp/src/cae/com_iflytek_iflyos_AlsaCAE.cpp",
+					"workingDirectory" : "F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dalsacae_EXPORTS -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\. -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\.. -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder\\alsa -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder\\include -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\cae -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\cae\\include -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\android -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\log -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\queue  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/src/main/cpp/src/Recorder.cpp",
+					"workingDirectory" : "F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dalsacae_EXPORTS -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\. -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\.. -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder\\alsa -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder\\include -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\cae -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\cae\\include -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\android -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\log -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\queue  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/src/main/cpp/src/recorder/alsa/alsa_recorder.cpp",
+					"workingDirectory" : "F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dalsacae_EXPORTS -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\. -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\.. -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder\\alsa -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder\\include -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\cae -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\cae\\include -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\android -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\log -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\queue  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/src/main/cpp/src/util/android/android_help.cpp",
+					"workingDirectory" : "F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dalsacae_EXPORTS -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\. -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\.. -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder\\alsa -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder\\include -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\cae -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\cae\\include -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\android -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\log -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\queue  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/src/main/cpp/src/util/jvm/jvm.cpp",
+					"workingDirectory" : "F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dalsacae_EXPORTS -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\. -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\.. -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder\\alsa -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder\\include -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\cae -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\cae\\include -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\android -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\log -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\queue  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/src/main/cpp/src/util/log/JniLog.cpp",
+					"workingDirectory" : "F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dalsacae_EXPORTS -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\. -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\.. -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder\\alsa -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\recorder\\include -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\cae -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\cae\\include -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\android -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\log -IF:\\workspace\\alsacae_notwakeup_base\\alsacae_notwakeup\\sdk\\src\\main\\cpp\\src\\cae\\..\\util\\queue  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/src/main/cpp/src/util/queue/AudioQueue.c",
+					"workingDirectory" : "F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/.cxx/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "F:/workspace/alsacae_notwakeup_base/alsacae_notwakeup/sdk/output/armeabi-v7a/libalsacae.so",
+			"toolchain" : "1040559353"
+		}
+	},
+	"toolchains" : 
+	{
+		"1040559353" : 
+		{
+			"cCompilerExecutable" : "C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
